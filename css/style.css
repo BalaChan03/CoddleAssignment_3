@@ -91,10 +91,12 @@ body {
 .firstpage_contents
 {
     width: 100%;
-    background-color: rgb(255, 253, 253);
+    /* background-color: rgb(255, 253, 253); */
+    background-color: #fafafaf5;
     display: flex;
     justify-content: center;
     padding: 1rem 0;
+    padding-bottom: 4rem;
 }
 
 .firstpage_contents .main_contents
@@ -190,8 +192,9 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 0rem;
     cursor: pointer;
+    background-color: #f7f6f6f5;
 }
 
 .sites {
@@ -203,6 +206,7 @@ body {
     width: 90%; 
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 5rem;
 }
 
 .sites img {
@@ -219,7 +223,9 @@ body {
     justify-content: center;
     overflow: hidden; 
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 0rem;
+    padding-bottom: 5rem;
+    background-color: #f7f6f6f5;
 }
 
 .secondpage_contents .services {
@@ -254,15 +260,25 @@ body {
     width: 300px;
 }
 
-.secondpage_contents .tour_guide, .booking, .weather {
+.secondpage_contents .booking, .weather {
     background-color: white;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0);
     padding: 2rem;
     flex: 0 0 calc(33.33% - 2rem); 
     max-width: 300px;
     border: 0.5px solid rgb(235, 232, 232);
+}
+
+.secondpage_contents .tour_guide
+{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0);
+    padding: 2rem;
+    flex: 0 0 calc(33.33% - 2rem); 
+    max-width: 300px;
 }
 
 .secondpage_contents .tour_guide img, .booking img, .weather img {
@@ -290,9 +306,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 0rem;
     padding: .2rem;
-    background-color: #f9f9f9;
+    background-color: #f7f6f6f5;
 }
 
 .secondpage_bottom .secondpage_bottom_contents
@@ -349,8 +365,8 @@ body {
     align-items: center;
     width: 100%;
     padding: 2rem;
-    margin-top: 1rem;
-    background-color: #f9f9f9;
+    margin-top: 0rem;
+    background-color: #f7f6f6f5;
 }
 
 .images .image_contents {
@@ -366,7 +382,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #fff;
+    background: #ffffff;
     border-radius: 22px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
     overflow: hidden;
@@ -441,7 +457,8 @@ body {
 .thirdpage_contents .whole_contents {
     display: flex;
     width: 100%; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    background-color: #fcf8f8;
 }
 
 
